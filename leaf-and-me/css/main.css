@@ -1,0 +1,9 @@
+/* BASE */
+@import "./base/reset.css";
+@import "./base/variaveis.css";
+@import "./base/tipografia.css";
+
+/* LAYOUT */
+@import "./layout/header.css";
+@import "./layout/sections.css";
+@import "./layout/footer.css";

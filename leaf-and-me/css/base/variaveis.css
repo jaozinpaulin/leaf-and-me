@@ -1,0 +1,22 @@
+/* ===============================
+    VARIÁVEIS GLOBAIS
+=============================== */
+:root {
+    /* cor das sections */
+    --bg-secao-identidade: #1b262e;
+    --bg-secao-leaf: #2A3A44;
+    --bg-secao-plantas: #1F2B33;
+    --bg-secao-grid-plantas: #212e36;
+    --bg-secao-rituais: #3A4B55;
+    --bg-secao-grid-footer: #3c505c;
+
+    /* cores e tipografia */
+    --color-white: #c4c4c4;
+    --color-black: #000;
+    --color-blue: #5199d1;
+    --font-font-family: 'Poppins', sans-serif;
+
+    /* backgrounds svg reutilizaveis */
+    --bg-all-svgs: url("/leaf-and-me/imgs/svg/all-svgs.svg") no-repeat center / cover;
+    --bg-all-svgs-reverse: url("/leaf-and-me/imgs/svg/all-svgs-reverse.svg") no-repeat center / cover;
+}

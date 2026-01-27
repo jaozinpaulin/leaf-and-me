@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="none">
+
+  <!-- Fundo -->
+  <rect width="1200" height="400" fill="#0F171C"></rect>
+
+  <!-- Camada orgânica (reversa) -->
+  <path d="M0,200
+       C180,260 260,140 420,180
+       C580,220 680,280 820,220
+       C960,160 1080,180 1200,200
+       L1200,0
+       L0,0
+       Z" fill="#1D2B33"></path>
+
+  <!-- Contra-camada (reversa) -->
+  <path d="M0,200
+       C200,140 340,260 520,220
+       C700,180 820,100 980,160
+       C1080,200 1140,240 1200,200
+       L1200,400
+       L0,400
+       Z" fill="#162229" opacity="0.92"></path>
+
+</svg>

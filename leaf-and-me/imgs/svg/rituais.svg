@@ -1,0 +1,30 @@
+<svg width="100%" height="100%" viewBox="0 0 1200 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fundo base -->
+  <rect width="1200" height="600" fill="#1A252C"></rect>
+
+  <!-- Halo central (ritual / foco) -->
+  <circle cx="600" cy="300" r="180" fill="#2A3A44" opacity="0.45"></circle>
+
+  <!-- Anel externo -->
+  <circle cx="600" cy="300" r="260" stroke="#8FB8A1" stroke-width="1.5" opacity="0.18" fill="none"></circle>
+
+  <!-- Anel interno -->
+  <circle cx="600" cy="300" r="120" stroke="#8FB8A1" stroke-width="1" opacity="0.22" fill="none"></circle>
+
+  <!-- Linhas cardeais (tempo / ciclo) -->
+  <line x1="600" y1="40" x2="600" y2="120" stroke="#8FB8A1" stroke-width="1" opacity="0.25"></line>
+
+  <line x1="600" y1="480" x2="600" y2="560" stroke="#8FB8A1" stroke-width="1" opacity="0.25"></line>
+
+  <line x1="40" y1="300" x2="120" y2="300" stroke="#8FB8A1" stroke-width="1" opacity="0.25"></line>
+
+  <line x1="1080" y1="300" x2="1160" y2="300" stroke="#8FB8A1" stroke-width="1" opacity="0.25"></line>
+
+  <!-- Pontos rituais -->
+  <circle cx="600" cy="40" r="3" fill="#8FB8A1" opacity="0.4"></circle>
+  <circle cx="600" cy="560" r="3" fill="#8FB8A1" opacity="0.4"></circle>
+  <circle cx="40" cy="300" r="3" fill="#8FB8A1" opacity="0.4"></circle>
+  <circle cx="1160" cy="300" r="3" fill="#8FB8A1" opacity="0.4"></circle>
+
+</svg>

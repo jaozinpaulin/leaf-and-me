@@ -1,0 +1,54 @@
+/* =======================
+    HEADER PRINCIPAL FIXO
+======================= */
+.leaf-header {
+    position: fixed;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #2A3A44;
+    opacity: 0.98;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.header-logo a {
+    color: #EAEAEA;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.header-menu {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.header-menu a {
+    color: #EAEAEA;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 300;
+    padding: 0.5rem; 
+    border-radius: 12px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.096);
+}
