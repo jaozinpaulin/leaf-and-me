@@ -347,7 +347,7 @@
 
 /* card individual da planta */
 .plantas-article {
-    max-width: 500px;
+    max-width: 300px;
     width: 100%;
     background-color: #e2e7eb02;
     color: var(--color-white);
