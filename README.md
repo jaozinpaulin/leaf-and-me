@@ -30,7 +30,7 @@ Este projeto representa minha evolução no desenvolvimento front-end, utilizand
 
 ## 📸 Screenshots
 
-![Leaf & Me](./imgs/leaf.png)
+![Leaf & Me](./leaf-and-me/imgs/leaf.png)
 
 ---
 
