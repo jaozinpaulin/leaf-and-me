@@ -1,8 +1,27 @@
-/* ===============================
-    VARIÁVEIS GLOBAIS
-=============================== */
+/* reset padrao do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: var(--font-font-family);
+}
+
+
+
 :root {
-    /* cor das sections */
+    /* sections */
     --bg-secao-identidade: #1b262e;
     --bg-secao-leaf: #2A3A44;
     --bg-secao-plantas: #1F2B33;
@@ -10,13 +29,13 @@
     --bg-secao-rituais: #3A4B55;
     --bg-secao-grid-footer: #3c505c;
 
-    /* cores e tipografia */
+    /* fontes e cores*/
     --color-white: #c4c4c4;
     --color-black: #000;
     --color-blue: #5199d1;
     --font-font-family: 'Poppins', sans-serif;
 
-    /* backgrounds svg reutilizaveis */
+    /* svgs*/
     --bg-all-svgs: url("/leaf-and-me/imgs/svg/all-svgs.svg") no-repeat center / cover;
     --bg-all-svgs-reverse: url("/leaf-and-me/imgs/svg/all-svgs-reverse.svg") no-repeat center / cover;
 }

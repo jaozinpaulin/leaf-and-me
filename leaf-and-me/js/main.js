@@ -1,3 +1,0 @@
-/* ==========
-inicialização geral (futuro)
-========== */

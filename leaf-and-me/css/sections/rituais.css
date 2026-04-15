@@ -1,0 +1,129 @@
+.rituais {
+    width: 100%;
+    background: var(--bg-secao-identidade);
+    color: var(--color-white);
+}
+
+.rituais-cabecalho {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 3rem;
+}
+
+.rituais-small {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #8FB8A1;
+    margin: 1rem 0;
+}
+
+.rituais-titulo {
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+/* parte destacada do título */
+.rituais-titulo-sub {
+    font-size: 3rem;
+    color: var(--color-blue);
+    font-weight: 600;
+}
+
+.rituais-subtitulo {
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* container flex dos cards de rituais */
+.rituais-flex-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 3rem;
+    ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 3rem;
+}
+
+.rituais-gestos {
+    max-width: 600px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 2rem;
+    background-color: #2A3A44;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
+
+    gap: 2rem;
+}
+
+/* container do ícone do ritual */
+.rituais-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 1.3rem;
+    border-radius: 24px;
+    background-color: #4a6b805b;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.rituais-icons {
+    font-size: 1.5rem;
+}
+
+/* container do texto do gesto */
+.gestos-container {
+    background-color: #3246525d;
+    padding: 1rem;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.082);
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.rituais-icons-container:hover {
+    background-color: #436b9698;
+}
+
+.gestos-titulo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.gestos-small {
+    opacity: 0.9;
+    color: #3b75ac;
+    font-size: 0.9rem;
+}
+
+.gestos-subtitulo {
+    font-size: 1rem;
+    opacity: 0.8;
+    line-height: 1.3rem;
+}

@@ -1,3 +1,0 @@
-/* ==========
-alternância de tema (futuro)
-========== */

@@ -1,0 +1,143 @@
+.plantas {
+    width: 100%;
+    padding: 5rem;
+    background: var(--bg-secao-plantas);
+
+    color: var(--color-white);
+}
+
+/* container superior da section plantas */
+.plantas-principal {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plantas-texto-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.planta-small-top {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #8FB8A1;
+}
+
+.plantas-titulo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.8rem;
+    margin: 1rem 0;
+}
+
+.plantas-titulo {
+    font-size: 2.8rem;
+}
+
+/* parte destacada do título */
+.plantas-titulo-sub {
+    font-size: 3rem;
+    color: var(--color-blue);
+    font-weight: 600;
+}
+
+.plantas-subtitulo {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.container-plantas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao-plantas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.duoPlantaCS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.plantas-article {
+    width: clamp(250px, 30vw, 350px);
+    height: clamp(450px, 45vw, 500px);
+    background-color: #e2e7eb02;
+    color: var(--color-white);
+    padding: 1rem;
+    border-radius: 24px;
+    border: 1px solid #ffffff3a;
+
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, filter 0.3s ease-in-out, trasform 0.3s ease-in-out;
+}
+
+.plantas-article:hover .container-imgs .plantas-img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* container da imagem da planta */
+.container-imgs {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.plantas-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    inset: 0;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.plantas-infos {
+    padding: 1.3rem 0;
+    margin: 1.3rem 0;
+
+    border-bottom: 1px #ffffff3a solid;
+}
+
+.plantas-infos-tx {
+    font-size: 1.1rem;
+    font-weight: 600;
+    opacity: 0.8;
+    color: #8FB8A1;
+}
+
+.plantas-infos-tx-sub {
+    margin-top: 0.5rem;
+    opacity: 0.7;
+}
+
+.plantas-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
