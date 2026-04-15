@@ -1,9 +1,20 @@
 /* BASE */
-@import "./base/reset.css";
-@import "./base/variaveis.css";
-@import "./base/tipografia.css";
+
+@import url('./base/global.css');
 
 /* LAYOUT */
-@import "./layout/header.css";
-@import "./layout/sections.css";
-@import "./layout/footer.css";
+
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+
+/* SECTIONS */
+
+@import url('./sections/identidade.css');
+@import url('./sections/sobreLeaf.css');
+@import url('./sections/plantas.css');
+
+@import url('./sections/gridPlantas.css');
+@import url('./sections/rituais.css');
+
+
+

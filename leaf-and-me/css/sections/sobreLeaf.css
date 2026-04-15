@@ -1,0 +1,162 @@
+.secao-sobre-leaf {
+    width: 100%;
+    background: var(--bg-secao-identidade);
+    padding: 5rem 3rem;
+}
+
+.sobre-leaf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+    color: var(--color-white);
+}
+
+.sobre-pop-up {
+    position: relative;
+    display: block;
+}
+
+.sobre-img {
+    max-width: 600px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 25px;
+}
+
+.bi-globe-americas {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 1.8rem;
+    color: darkgreen;
+    padding: 1rem;
+    border-radius: 12px;
+
+    background-color: #a2d69c8a;
+}
+
+/* pop-up informativo sobre a imagem */
+.pop-up-icon {
+    width: 100%;
+    max-width: 200px;
+
+    position: absolute;
+    bottom: -2.3rem;
+    left: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    padding: 1.8rem;
+    border-radius: 20px;
+    background-color: #fffffff8;
+
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.container-especies {
+    color: var(--color-black);
+}
+
+.icon-numero-plus {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #32522f
+}
+
+.icon-especies {
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+.sobre-container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem 1rem;
+    padding: 1rem;
+}
+
+.sobre-container-info {
+    display: block;
+    align-content: center;
+    text-align: left;
+}
+
+.sobre-projeto {
+    font-size: 1rem;
+    color: #8FB8A1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sobre-titulo {
+    color: rgb(30 41 59 1);
+    margin-top: 1rem;
+
+    max-width: 500px;
+    font-size: 2.9rem;
+    font-weight: 300;
+}
+
+.titulo-secundario {
+    color: var(--color-blue);
+    font-weight: 550;
+    font-size: 3rem;
+}
+
+.sobre-info {
+    line-height: 1.6;
+    font-size: 1.1rem;
+
+    margin: 1.3rem 0;
+    font-size: 1.2rem;
+}
+
+.sobre-icons-plus {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 1.5rem;
+}
+
+.sobre-icons-plus .bi {
+    padding: 1rem;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+
+    color: #fff;
+    background-color: #27638b;
+
+    box-shadow: 0px 1px 4px 0px #3d6a88d0;
+}
+
+/* container de textos ao lado dos ícones */
+.icons-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-info {
+    font-size: 1.1rem;
+}
+
+.subtitulo-info {
+    font-size: 1rem;
+    opacity: 0.7;
+}
